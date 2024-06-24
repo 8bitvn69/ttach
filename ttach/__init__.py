@@ -1,6 +1,7 @@
 from .wrappers import (
     SegmentationTTAWrapper,
     ClassificationTTAWrapper,
+    KeypointsTTAWrapper
 )
 from .base import Compose
 
@@ -9,3 +10,5 @@ from .transforms import (
 )
 
 from . import aliases
+
+from .__version__ import __version__
